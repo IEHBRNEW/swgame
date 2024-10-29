@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d94cd399-6837-45ef-b25c-88038c44d44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\IO">
+      <UniqueIdentifier>{3b6cb4c6-9826-4b8b-8771-9f4caffbd941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\IO\Commands">
+      <UniqueIdentifier>{b0e847e1-6804-4c95-b370-5d96595cb1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\IO\Events">
+      <UniqueIdentifier>{70b6eb17-7e67-490f-bb45-857d08db7e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\IO\System">
+      <UniqueIdentifier>{8bcf661c-74f4-44f7-b583-d3463eef44b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{d648dbaf-6b73-40f1-aaa4-d53782ba1fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\data">
+      <UniqueIdentifier>{d24899ea-c9d3-4e42-b77a-6e5959160372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Shared">
+      <UniqueIdentifier>{6cba4416-5551-42c3-bcd3-d34632e9c884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\IO\System\details">
+      <UniqueIdentifier>{73249d67-9cc3-4c5e-94e4-a7632bb23525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Models">
+      <UniqueIdentifier>{6fa61455-00c6-4f48-87e4-78592825826c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Models\Units">
+      <UniqueIdentifier>{e6dcdd1d-47e2-4a42-b6e5-20c8d065dcf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Models\Units\Attacks">
+      <UniqueIdentifier>{1ec1ddee-3746-43fe-bfad-199889411fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controller">
+      <UniqueIdentifier>{f4cb73b3-b835-479d-88de-2886b40d0aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controller\Interfaces">
+      <UniqueIdentifier>{773b5249-f55d-4134-94e8-f99de7c509a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controller\Validators">
+      <UniqueIdentifier>{226098c2-38f5-48d2-8d2b-2fd80804c38c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IO\System\CommandParser.cpp">
+      <Filter>src\IO\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Models\Units\Unit.cpp">
+      <Filter>src\Models\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Models\Units\Attacks\AttackStrategy.cpp">
+      <Filter>src\Models\Units\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Models\Units\Archer.cpp">
+      <Filter>src\Models\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Models\Units\Warrior.cpp">
+      <Filter>src\Models\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Controller\BattleController.cpp">
+      <Filter>src\Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\IO\Commands\CreateMap.hpp">
+      <Filter>src\IO\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\Commands\March.hpp">
+      <Filter>src\IO\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\Commands\SpawnArcher.hpp">
+      <Filter>src\IO\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\Commands\SpawnWarrior.hpp">
+      <Filter>src\IO\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\Events\MapCreated.hpp">
+      <Filter>src\IO\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\Events\MarchEnded.hpp">
+      <Filter>src\IO\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\Events\MarchStarted.hpp">
+      <Filter>src\IO\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\Events\UnitAttacked.hpp">
+      <Filter>src\IO\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\Events\UnitDied.hpp">
+      <Filter>src\IO\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\Events\UnitMoved.hpp">
+      <Filter>src\IO\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\Events\UnitSpawned.hpp">
+      <Filter>src\IO\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\System\CommandParser.hpp">
+      <Filter>src\IO\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\System\EventLog.hpp">
+      <Filter>src\IO\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\System\PrintDebug.hpp">
+      <Filter>src\IO\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\System\details\CommandParserVisitor.hpp">
+      <Filter>src\IO\System\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IO\System\details\PrintFieldVisitor.hpp">
+      <Filter>src\IO\System\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shared\Types.hpp">
+      <Filter>src\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Models\Units\Warrior.h">
+      <Filter>src\Models\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Models\Units\Attacks\AttackType.h">
+      <Filter>src\Models\Units\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Models\Units\Attacks\MeleeAttack.hpp">
+      <Filter>src\Models\Units\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Models\Units\Attacks\RangedAttack.hpp">
+      <Filter>src\Models\Units\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Models\Units\Attacks\AttackStrategy.h">
+      <Filter>src\Models\Units\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Models\Units\Archer.h">
+      <Filter>src\Models\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Models\Units\Unit.h">
+      <Filter>src\Models\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controller\BattleController.h">
+      <Filter>src\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controller\Interfaces\BattleObserver.h">
+      <Filter>src\Controller\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controller\Validators\UnitValidator.h">
+      <Filter>src\Controller\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controller\Validators\UnitPositionValidator.hpp">
+      <Filter>src\Controller\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controller\Validators\UnitTargetPositionValidator.hpp">
+      <Filter>src\Controller\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controller\Validators\UnitDoubleIdValidator.hpp">
+      <Filter>src\Controller\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controller\Validators\UnitDoublePositionValidator.hpp">
+      <Filter>src\Controller\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controller\Interfaces\BattleScene.h">
+      <Filter>src\Controller\Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\test\data\test1.txt">
+      <Filter>test\data</Filter>
+    </Text>
+    <Text Include="..\test\data\test2.txt">
+      <Filter>test\data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
